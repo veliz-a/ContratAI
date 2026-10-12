@@ -1,3 +1,24 @@
+# Datos pesados (se descargan con script, no se versionan)
+data/raw/
+data/processed/
+
+# Sistema
+.DS_Store
+
+# mise
+mise.toml
+mise.local.toml
+.mise.local.toml
+
+# Archivos de uv
+pyproject.toml
+uv.lock
+.python-version
+
+# Colab
+sample_data/
+.ipynb_checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -201,7 +222,7 @@ cython_debug/
 #   can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #   and can be added to the global gitignore or merged into this file. However, if you prefer, you
 #   could uncomment the following to ignore the entire vscode folder
-# .vscode/
+.vscode/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
