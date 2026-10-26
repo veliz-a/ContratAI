@@ -12,11 +12,11 @@ def probar_conexion_modelo():
             {"role": "system", "content": prompt_sistema},
             {"role": "user", "content": prompt_usuario}
         ],
-        model="llama-3.3-70b-versatile",
+        model="qwen/qwen3.8-27b",
     )
     
     print("--- PRUEBA EXITOSA DE LA HERRAMIENTA (GROQ API) ---")
-    print("Modelo utilizado: llama-3.3-70b-versatile")
+    print("Modelo utilizado: qwen/qwen3.8-27b")
     print("\nRespuesta generada por el modelo:")
     print(chat_completion.choices[0].message.content)
 
