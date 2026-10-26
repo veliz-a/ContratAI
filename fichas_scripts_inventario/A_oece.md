@@ -17,7 +17,9 @@ Los datos se pueden descargar desde el portal oficial. También existe una publi
 
 **3. ¿Qué campos trae y cuáles faltan para las preguntas del Frente D?**
 
-El portal contiene información sobre convocatorias, adjudicaciones, proveedores, entidades contratantes y contratos. Para identificar los campos exactos se necesita revisar los diccionarios de datos y descargar una muestra. También falta contrastarlos con las preguntas específicas del Frente D.
+Se analizó el archivo de adjudicaciones del OECE correspondiente a 2025, que contiene 25 columnas. Entre los campos disponibles se encuentran la entidad contratante, RUC de la entidad, código de convocatoria, tipo de procedimiento, descripción del proceso, proveedor adjudicado, RUC del proveedor, monto referencial, monto adjudicado, estado del ítem y fechas de convocatoria y buena pro.
+
+Estos campos permiten responder consultas sobre adjudicaciones y proveedores. Sin embargo, el archivo no presenta columnas específicas sobre pagos efectuados, penalidades o avance de ejecución contractual. Queda pendiente comparar estos campos con las preguntas del Frente D.
 
 **4. ¿Incluye la ejecución del contrato (plazos, pagos, penalidades) o solo convocatoria y adjudicación?**
 
@@ -29,11 +31,29 @@ El portal de datos abiertos tradicional no incluye procedimientos de selección 
 
 **6. ¿Cuántos registros tiene, qué período cubre y cada cuánto se actualiza?**
 
-El portal tradicional contiene información desde 2018 y se actualiza mensualmente, durante los primeros cinco días de cada mes. La cantidad exacta de registros todavía está pendiente de medición mediante un script de Python.
+El archivo CONOSCE_ADJUDICACIONES2025_0.xlsx, correspondiente al año 2025, contiene 45,620 registros y 25 columnas, según el análisis realizado con Python y pandas.
+
+El Portal de Datos Abiertos del OECE ofrece información desde 2018 y señala que se actualiza mensualmente durante los primeros cinco días de cada mes. La página consultada indicaba una actualización al 30 de septiembre de 2026.
+
+El conteo obtenido corresponde únicamente al archivo analizado de adjudicaciones de 2025, no a la totalidad de registros disponibles en el portal.
 
 **7. ¿Qué tan limpio está (vacíos, duplicados, nombres escritos de varias formas)?**
 
-Todavía no se ha medido la calidad de una muestra descargada. En la publicación de contrataciones abiertas se han documentado identificadores duplicados, contratos sin estado y relaciones incompletas entre adjudicaciones y contratos. Será necesario comprobar estos problemas en los datos seleccionados.
+Se analizaron 45,620 registros mediante Python y pandas. No se encontraron filas completamente duplicadas.
+
+Se identificaron los siguientes valores vacíos:
+
+FECHA_CONSENTIMIENTO_BP: 573 registros.
+
+DEPARTAMENTO_ITEM: 204 registros.
+
+FECHA_BUENAPRO: 16 registros.
+
+MONTO_REFERENCIAL_ITEM_SOLES: 1 registro.
+
+Las demás columnas no presentaron valores vacíos.
+
+Los resultados muestran una baja proporción de datos faltantes. Sin embargo, todavía es necesario comprobar posibles inconsistencias en nombres de entidades y proveedores, además de duplicados basados en identificadores específicos.
 
 ## Bloqueos o hallazgos inesperados
 
