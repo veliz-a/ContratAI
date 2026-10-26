@@ -1,0 +1,30 @@
+ANALISIS DE DATOS DEL SEACE - 2026
+========================================
+Archivo: Lista-Procesos.xls
+Total de registros: 499
+Total de columnas: 10
+Filas duplicadas exactas: 0
+
+COLUMNAS DISPONIBLES:
+N°
+Nombre o Sigla de la Entidad
+Fecha y Hora de Publicacion
+Nomenclatura
+Reiniciado Desde
+Objeto de Contratación
+Descripción de Objeto
+VR / VE / Cuantía de la contratación
+Moneda
+Versión SEACE
+
+VALORES VACIOS POR COLUMNA:
+N°: 0
+Nombre o Sigla de la Entidad: 0
+Fecha y Hora de Publicacion: 0
+Nomenclatura: 0
+Reiniciado Desde: 478
+Objeto de Contratación: 0
+Descripción de Objeto: 0
+VR / VE / Cuantía de la contratación: 0
+Moneda: 0
+Versión SEACE: 0
