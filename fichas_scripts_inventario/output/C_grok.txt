@@ -1,0 +1,54 @@
+--- PRUEBA EXITOSA DE LA HERRAMIENTA (GROQ API) ---
+Modelo utilizado: qwen/qwen3.8-27b
+
+Respuesta generada por el modelo:
+Para que una Microempresa (MiME) o Pequeña Empresa (PE) –conjuntamente denominadas MYPEs en la normativa peruana– pueda postular a una licitación pública y aprovechar los beneficios de participación preferencial (como la reserva de ítems o el derecho de admisión preferente), debe cumplir con el Requisito de Calificación de MYPE según lo establecido en la Ley N° 30518, Ley que Promueve la Competencia y la Libre Competencia entre Micro y Pequeñas Empresas, su Reglamento, y las normas de contratación del Estado (Reglamento de la Ley de Contrataciones del Estado - Decreto Legislativo N° 1395 y su actualización, Decreto Legislativo N° 1594).
+
+A continuación, detallo los requisitos mínimos que debe cumplir una MYPE para habilitarse como tal en el SEACE:
+
+1. Registro y Clasificación como MYPE (Requisito Previa)
+La entidad adjudicataria exigirá la calificación de MYPE emitida por la entidad competente, que actualmente es MYPE empRENDE (antes PROMYPE). Este requisito se verifica mediante:
+- Código de Calificación MYPE vigente: La empresa debe contar con la calificación vigente de MiME o PE en la base de datos de MYPE empRENDE. No basta con autofinanciar o autodeterminarse; debe estar registrada y calificada por esa entidad al momento de presentar su propuesta.
+- RUC con código de MYPE: En el Registro Único de Contribuyentes (RUC), la empresa debe tener el código correspondiente a MiME o PE registrado.
+
+2. Cumplimiento del Requisito de Calificación Técnica y Económica
+Al igual que cualquier proveedor, la MYPE debe cumplir con los requisitos específicos del expediente técnico o de contratación:
+- Solidez económica: Demostrar capacidad financiera adecuada.
+- Experiencia: Cumplir con la cantidad de contratos similares exigidos en la base de datos (si aplica).
+- Equipamiento: Disponibilidad de equipos o materiales derivados de la especialidad (si es un servicio de consultoría o obra pública).
+
+3. Habilitaciones Generales Obligatorias (Comunes a todos los proveedores)
+Estas son verificaciones automáticas o documentales que debe cumplir:
+- Registro en la SUNAT: Haber presentado las declaraciones juradas correspondientes a los últimos tres meses anteriores a la fecha de presentación de la oferta, y tener las obligaciones regularizadas.
+- INABI (Ahora RENIEC): Cuentas de agua y luz al día (si aplica según naturaleza del contrato).
+- MTPE: Ser empleador regularizado. Debe contar con los asientos de inscripción en el Registro de Trabajadores y estar al día con el Seguro Social de Salud (EsSalud) y el Seguro Complementario de Trabajo de Riesgo (SCTR) para los trabajadores calificados requeridos por el expediente técnico (especialmente en obras públicas).
+- SIGOB: Haber presentado la Suscripción de Documento Único Electrónico (DUDE) activa.
+
+4. Presentación de la Oferta en el SEACE
+- La MYPE debe registrar su oferta en el portal InformesSEACE dentro de los plazos establecidos.
+- Debe indicar en el sistema que se trata de una MYPE seleccionando la opción correspondiente. Esto activa el algoritmo de calificación preferencial si la licitación tiene participación preferente para MYPEs.
+
+---
+¿Qué beneficios tiene una MYPE calificada como tal?
+Si cumple con todos los requisitos anteriores, la MYPE accede a:
+1. Participación Preferente: En las licitaciones donde se haya declarado participación preferente para MYPEs, estas tienen prioridad en la calificación. Si una MYPE y una grande empatan en puntaje, la MYPE gana.
+2. Cupo MYPE: En muchos procesos de buena pro (adquisiciones y servicios), se reserva un porcentaje de ítems (generalmente el 30%) solo para MYPEs. Para que se adjudique, la MYPE debe presentar una oferta competitiva y cumpliendo requisitos.
+3. Acceso a Contratos Menores: Las MYPEs tienen prioridad en las contrataciones menores (hasta S/. 8 UTU, aproximadamente) mediante contratación directa, si cumplen con requisitos de solvencia.
+
+---
+Advertencias Importantes:
+- Calificación Vigente: La calificación como MYPE debe estar vigente al momento de presentar la oferta. Si la calificación vence durante el proceso, la propuesta será declarada excluida.
+- No puede ser una cooperativa ni una asamblea de cooperativas: Estas figuras están excluidas de la definición de MYPE para efectos de la Ley de Contrataciones.
+- Tamaño actualizado: La Ley N° 30518 redefine los umbrales económicos. Asegúrese de que su facturación total anual (últimos 3 ejercicios) no supere los límites para PE:
+  * MiME: Hasta S/ 340,000 (aprox., según actualizaciones anuales por UI).
+  * PE: Hasta S/ 1,500,000 (aprox.).
+  *(Verifique los montos actualizados por UI vigentes al momento de postular).*
+
+Resumen Pasos para Postular:
+1. Asegurese de tener su calificación MYPE empRENDE vigente.
+2. Verifique que su RUC, SUNAT, MTPE, INABI estén al día.
+3. Reúna la documentación exigida en el Proceso de Compra (experiencia, equipo, etc.).
+4. Registre su oferta en SEACE indicando que es MYPE.
+5. Monitoree su calificación técnica y económica en el sistema.
+
+Recomiendo siempre revisar la Base de Datos de la licitación específica, ya que cada licitador (Ministerio, Gobierno Regional, etc.) puede incluir requisitos adicionales específicos dentro de los lineamientos legales.
