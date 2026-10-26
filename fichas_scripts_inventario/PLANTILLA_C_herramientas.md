@@ -23,7 +23,7 @@ Solo necesita registrarse de forma gratuita en la plataforma de Groq para obtene
 **¿Cuánto tarda en responder?**
 Presenta tiempos de respuesta muy bajos, lo cual permite que la interacción del chat se mantenga fluida y en tiempo real.
 
-**Cuando le preguntas algo que no está en la información que le das, ¿admite que no lo sabe o inventa unaرسpuesta?**
+**Cuando le preguntas algo que no está en la información que le das, ¿admite que no lo sabe o inventa una respuesta?**
 Mediante el uso de un prompt de sistema que establezca directrices estrictas, el modelo logra identificar los vacíos de información y señala la ausencia de datos en lugar de generar respuestas especulativas.
 
 **¿Cómo responde preguntas de conteo o promedio sobre una tabla?**
