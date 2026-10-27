@@ -1,0 +1,6 @@
+groq
+lxml
+openpyxl
+pandas
+requests
+urllib3

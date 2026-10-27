@@ -49,6 +49,14 @@ fichas_scripts_inventario/   fichas y scripts de exploración de fuentes y herra
 
 *Pendiente: se completa cuando exista el prototipo.* Las claves de acceso nunca se suben al repositorio: se configuran con variables de entorno.
 
+## Instalar requirements.txt
+
+```bash
+pip install -r requirements.txt
+
+uv pip install -r requirements.txt
+```
+
 ## Datos y uso responsable
 
 Los datos provienen de portales públicos del Estado peruano; revisa los términos de uso de cada fuente. El repositorio no contiene datos personales de personas naturales.
